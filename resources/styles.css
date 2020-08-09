@@ -1,0 +1,209 @@
+.background {
+  viewport-fill: black;
+}
+
+.statsSection {
+  x: 0;
+  y: 0;
+  width: 50%;
+  height: 50%;
+}
+
+.timeSection {
+  x: 50%;
+  y: 0%;
+  width: 50%;
+  height: 50%;
+}
+
+
+.time {
+  font-size: 80;
+  font-family: Colfax;
+  text-length: 32;
+  text-anchor: end;
+  fill: fb-light-gray;
+}
+
+#hourDigit1 {
+  x: 60%;
+  y: 40%;
+}
+#hourDigit2 {
+  x: 90%;
+  y: 40%;
+}
+
+#minDigit1 {
+  x: 60%;
+  y: 90%;
+}
+#minDigit2 {
+  x: 90%;
+  y: 90%;
+}
+
+#date  {
+  font-size: 24;
+  text-length: 32;
+  text-anchor: end;
+  x: 90%;
+  y: 15%;
+  fill: fb-light-gray;
+}
+
+.statIcon {
+  height: 30;
+  width: 30;  
+}
+#heartIcon {
+  x: 5%;
+  y: 20%;
+}
+#floorsIcon {
+  x: 5%;
+  y: 45%;
+  fill: fb-orange;
+}
+#distIcon {
+  x: 5%;
+  y: 70%;
+  fill: fb-lime;
+}
+
+.stats {
+  font-size: 30;
+  font-family: Seville-Bold;
+  text-length: 32;
+  text-anchor: end;
+}
+#hr {
+  x: 90%;
+  y: 35%;
+  fill: fb-aqua;
+}
+#floorsClimbed {
+  x: 90%;
+  y: 60%;
+  fill: fb-orange;
+}
+#distanceTraveled {
+  x: 90%;
+  y: 85%;
+  fill: fb-lime;
+}
+
+#trackerSection {
+  x: 5%;
+  y: 50%;
+  height: 50%;
+  width: 270;
+}
+
+.trackerIcon {
+  height: 25;
+  width: 25;
+  fill: black;
+}
+#activeIcon {
+  x: 0%;
+  y: 7%;
+}
+#calsIcon {
+  x: 0%;
+  y: 37%;
+}
+#stepsIcon {
+  x: 0%;
+  y: 67%;
+}
+
+.trackerStats {
+  font-size: 24;
+  font-family: Seville-Bold;
+  text-length: 32;
+  text-anchor: middle;
+  fill: black;  
+}
+#activeMins {
+  x: 50%;
+  y: 20%;
+}
+#calsBurned {
+  x: 50%;
+  y: 50%;
+}
+#steps {
+  x: 50%;
+  y: 80%;
+}
+.trackerPct {
+  font-size: 24;
+  font-family: Seville-Bold;
+  text-length: 32;
+  text-anchor: end;
+  fill: black;  
+}
+#activePct {
+  x: 100%;
+  y: 20%;
+}
+#calsPct {
+  x: 100%;
+  y: 50%;
+}
+#stepsPct {
+  x: 100%;
+  y: 80%;
+}
+
+.activeBar {
+  x: 0%;
+  y: 5%;
+  fill: fb-aqua;   
+}
+#activeGoalBar {
+  width: 100%; 
+  height: 20%; 
+  opacity: 0.5;
+}
+
+#activeProgressBar {
+  width: 0%; 
+  height: 20%; 
+  opacity: 1;
+}
+
+.calsBar {
+  x: 0%;
+  y: 35%; 
+  fill: fb-orange;  
+}
+#calsGoalBar {
+  width: 100%; 
+  height: 20%; 
+  opacity: 0.5;
+}
+#calsProgressBar {
+  width: 05%; 
+  height: 20%; 
+  opacity: 1;
+}
+
+.stepBar {
+  x: 0%;
+  y: 65%; 
+  fill: fb-lime; 
+  
+}
+#stepsGoalBar {
+  width: 100%;
+  height: 20%; 
+  opacity: 0.5;
+}
+#stepsProgressBar {
+  width: 0%; 
+  height: 20%; 
+  opacity: 1;
+}
+

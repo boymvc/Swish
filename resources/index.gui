@@ -1,0 +1,41 @@
+<svg class="background">
+  <section class="statsSection">
+    <text id="date" />
+    
+    <image id="heartIcon" class="statIcon" href="images/stat_hr_solid_32px.png" />
+    <text id="hr" class="stats"/>
+    
+    <image id="floorsIcon" class="statIcon" href="images/stat_floors_solid_32px.png" />
+    <text id="floorsClimbed" class="stats"/>
+    
+    <image id="distIcon" class="statIcon" href="images/stat_dist_solid_32px.png" />
+    <text id="distanceTraveled" class="stats"/>
+  </section>
+  
+  <section class="timeSection">
+    <text id="hourDigit1" class="time" />
+    <text id="hourDigit2" class="time" />
+    <text id="minDigit1"  class="time" />
+    <text id="minDigit2"  class="time" />
+  </section>
+  
+  <section id="trackerSection">
+    <rect id="activeGoalBar" class="activeBar"/>
+    <rect id="activeProgressBar" class="activeBar"/>
+    <text id="activeMins"  class="trackerStats" />
+    <image id="activeIcon" class="trackerIcon" href="images/stat_am_solid_32px.png"/>
+    <text id="activePct"  class="trackerPct" />
+    
+    <rect id="calsGoalBar" class="calsBar"/>
+    <rect id="calsProgressBar" class="calsBar"/>
+    <text id="calsBurned"  class="trackerStats" />
+    <image id="calsIcon" class="trackerIcon" href="images/stat_cals_solid_32px.png" />
+    <text id="calsPct"  class="trackerPct" />
+
+    <rect id="stepsGoalBar" class="stepBar"/>
+    <rect id="stepsProgressBar" class="stepBar"/>
+    <text id="steps" class="trackerStats" />
+    <image id="stepsIcon" class="trackerIcon" href="images/stat_steps_solid_32px.png" />
+    <text id="stepsPct"  class="trackerPct" />
+  </section>
+</svg>
